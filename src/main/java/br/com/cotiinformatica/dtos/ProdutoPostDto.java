@@ -1,0 +1,23 @@
+package br.com.cotiinformatica.dtos;
+
+import lombok.AllArgsConstructor;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+public class ProdutoPostDto {
+
+	
+	private String nome;
+	private String descricao;
+	private Double preco;
+	private Integer quantidade;
+	
+}
